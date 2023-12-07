@@ -12,46 +12,41 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: <Widget> [
-                Container(
-                  height: 100.0,
-                  width: 100.0,
-                  color: Colors.red,
+            child: Column(
+              children: <Widget>[
+                CircleAvatar(
+                  radius: 50.0,
+                  backgroundImage: AssetImage('images/gurd.jpg'),
                 ),
-                Container(
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Container(
-                        height: 100.0,
-                        width: 100.0,
-                        color: Colors.yellow,
-                      ),
-                      Container(
-                        height: 100.0,
-                        width: 100.0,
-                        color: Colors.green,
-                      ),
-                    ],
+                Text(
+                  'Dagim Asrat',
+                  style: TextStyle(
+                    fontFamily: 'Pacifico',
+                    fontSize: 40.0,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                SizedBox(
+                  height: 5.0,
+                ),
+                Text(
+                  'FLUTTER DEVELOPER',
+                  style: TextStyle(
+                    fontFamily: 'SourceSans3',
+                    fontSize: 20.0,
+                    color: Colors.teal.shade100,
+                    letterSpacing: 2.5,
+                    fontWeight: FontWeight.bold,
                   ),
                 ),
                 Container(
-                  height: 100.0,
-                  width: 100.0,
-                  color: Colors.blue,
+
                 ),
-
-
               ],
-
             ),
         ),
-
-        ),
-      );
+      ),
+    );
   }
 }

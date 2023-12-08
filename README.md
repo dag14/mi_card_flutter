@@ -1,6 +1,6 @@
 ## What I will create
 
-Mi Card is a personal business card. Imagine every time I wanted to give someone your contact details or your business card but you didn't have it on you. Well, now you can get them to download your business card as an app.
+Mi Card is a personal business card. Imagine every time I wanted to give someone my contact details or my business card but I didn't have it on me. Well, now I have built my own business card app that they can download.
 
 ## What I will learn
 
